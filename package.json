@@ -1,12 +1,12 @@
 {
-  "name": "generator-rblb-nodejs",
+  "name": "generator-rblb-es6",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
   },
-  "repository" : "perchten/generator-rblb-nodejs",
+  "repository" : "perchten/generator-rblb-es6",
   "version": "2.0.0",
-  "description": "Yeoman generator for modules designed to run in pure nodejs, based on sohamkamani/generator-nm-es6. No babel transpilation etc",
+  "description": "Yeoman generator for modules with a set of es6 babel transpilations, based on sohamkamani/generator-nm-es6.",
   "files": [
     "app",
     "router"
