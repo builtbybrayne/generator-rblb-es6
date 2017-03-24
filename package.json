@@ -1,0 +1,27 @@
+{
+  "name": "generator-rblb-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository" : "perchten/generator-rblb-nodejs",
+  "version": "2.0.0",
+  "description": "Yeoman generator for modules designed to run in pure nodejs, based on sohamkamani/generator-nm-es6. No babel transpilation etc",
+  "files": [
+    "app",
+    "router"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "node",
+    "module",
+    "modules",
+    "mocha"
+  ],
+  "dependencies": {
+    "underscore.string": "^3.2.2",
+    "yeoman-generator": "^0.20.2"
+  },
+  "author": "Alastair Brayne <al@builtbybrayne.com> (http://builtbybrayne.com)",
+  "license": "MIT"
+}
