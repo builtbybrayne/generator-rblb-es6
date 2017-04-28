@@ -1,7 +1,7 @@
 {
   "name": "<%= info.moduleName %>",
   "version": "1.0.0",
-  "description": "<%= info.moduleDescription %>",
+  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test:hint": "parallelshell 'npm run mocha' 'npm run watch:jshint'",

@@ -10,7 +10,11 @@ module.exports = generators.Base.extend({
     var cb = this.async();
     var self = this;
 
-    this.prompt([], function (props) {
+    this.prompt([{
+      name: 'moduleName',
+      message: 'What do you want to name your module?',
+      default: this.appname.replace(/\s/g, '-')
+    }], function (props) {
       self.formProps = props;
       cb();
     });
