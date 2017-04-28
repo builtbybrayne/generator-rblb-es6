@@ -1,4 +1,4 @@
 import 'babel-polyfill';
-import App from './app';
-export * from './app';
-export default App;
+import Main from './main';
+export * from './main';
+export default Main;
