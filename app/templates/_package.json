@@ -6,8 +6,8 @@
   "scripts": {
     "test:hint": "parallelshell 'npm run mocha' 'npm run watch:jshint'",
     "watch:jshint" : "watch 'jshint src --reporter=./node_modules/jshint-stylish/index.js' src/",
-    "mocha": "mocha test/**/*.spec.js --compilers js:babel-core/register --watch",
-    "test": "mocha test/**/*.spec.js --compilers js:babel-core/register",
+    "mocha": "mocha 'test/**/*.spec.js' --compilers js:babel-core/register --watch",
+    "test": "mocha 'test/**/*.spec.js' --compilers js:babel-core/register",
     "relink": "npm unlink && npm link",
     "build": "rm -rf dist/* && babel src --out-dir dist"
   },
