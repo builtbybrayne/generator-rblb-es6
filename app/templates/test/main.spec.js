@@ -7,7 +7,7 @@ const expect = chai.expect;
 const sandbox = sinon.sandbox.create();
 
 
-const main = require('../src/main');
+import main from '../src/main';
 
 
 describe('main', function(){
