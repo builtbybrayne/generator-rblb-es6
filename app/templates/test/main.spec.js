@@ -1,12 +1,15 @@
 'use strict';
-const chai = require("chai");
-const expect = chai.expect;
+import chai from 'chai';
+import sinon from 'sinon';
 chai.use(require('chai-as-promised'));
+chai.use(require('sinon-chai'));
+const expect = chai.expect;
+const sandbox = sinon.sandbox.create();
 
-const myModule = require("../src/");
 
-describe('My module', function(){
-  it('Says hello world', () => {
-    expect(myModule()).to.equal('Hello World!');
-  });
+const main = require('../src/main');
+
+
+describe('main', function(){
+  it('has no tests');
 });
