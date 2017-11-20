@@ -1,15 +1,12 @@
 'use strict';
-import chai from 'chai';
-import sinon from 'sinon';
+const chai = require('chai');
+const sinon = require('sinon');
 chai.use(require('chai-as-promised'));
 chai.use(require('sinon-chai'));
 const expect = chai.expect;
 const sandbox = sinon.sandbox.create();
 
 
-import main from '../src/main';
-
-
-describe('main', function(){
+describe('index', function(){
   it('has no tests');
 });

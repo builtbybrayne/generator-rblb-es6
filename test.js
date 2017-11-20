@@ -9,9 +9,9 @@ describe('generator-rblb-es6', function () {
     helpers.run(path.join(__dirname, 'app'))
       .withPrompts({
       })
-      .on('ready', function (generator) {
-        // This is called right before `generator.run()` is called
-      })
+      // .on('ready', function (generator) {
+      //   // This is called right before `generator.run()` is called
+      // })
       .on('end', done);
   });
 
@@ -28,8 +28,7 @@ describe('generator-rblb-es6', function () {
       'src',
       'test',
       'src/index.js',
-      'src/main.js',
-      'test/main.spec.js'
+      'test/index.spec.js'
     ]);
   });
 });
