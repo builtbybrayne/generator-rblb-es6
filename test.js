@@ -9,10 +9,7 @@ describe('generator-rblb-es6', function () {
     helpers.run(path.join(__dirname, 'app'))
       .withPrompts({
       })
-      // .on('ready', function (generator) {
-      //   // This is called right before `generator.run()` is called
-      // })
-      .on('end', done);
+     .on('end', done);
   });
 
   it('Renames and puts dot files', function(){

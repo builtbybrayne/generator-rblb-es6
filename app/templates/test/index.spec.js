@@ -8,5 +8,7 @@ const sandbox = sinon.sandbox.create();
 
 
 describe('index', function(){
-  it('has no tests');
+  it('requires index.js without errors', function() {
+    expect(() => require('../src/index')).not.to.throw();
+  });
 });
