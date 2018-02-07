@@ -1,5 +1,5 @@
-# generator-nm-nodejs
-Yeoman generator for developing your own pure node modules (without transpilation). Based on [generator-npm-es6](https://github.com/sohamkamani/generator-nm-es6) by [sohamkamani](https://github.com/sohamkamani)
+# generator-rblb-es6
+Yeoman generator for developing your own ES6 nodejs modules (without transpilation). Based on [generator-npm-es6](https://github.com/sohamkamani/generator-nm-es6) by [sohamkamani](https://github.com/sohamkamani)
 - Uses [mocha](https://mochajs.org/) to run tests.
 - Uses [npm scripts](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/) for workflow automation.
 
@@ -7,7 +7,7 @@ Yeoman generator for developing your own pure node modules (without transpilatio
 
 - Install previous dependencies if you haven't already (`npm install -g yo mocha`).
 - Install the generator (`npm install -g generator-rblb-babel`)
-- Run the generator (`yo rblb-babel`)
+- Run the generator (`yo rblb-es6`)
 
 ## Development Workflow
 
